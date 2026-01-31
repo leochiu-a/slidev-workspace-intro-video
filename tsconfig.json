@@ -1,5 +1,4 @@
 {
-  "extends": "../packages/slidev-workspace/tsconfig.json",
   "compilerOptions": {
     "jsx": "react-jsx",
     "module": "ESNext",
