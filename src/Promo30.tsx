@@ -51,11 +51,9 @@ export const getPromo30Timings = (fps: number) => {
     titleDurationFrames,
     previewStartOffsetFrames,
     previewDurationFrames,
-    valueUiTotalFrames,
     previewExitStartFrames,
     previewExitEndFrames,
     buildStartFrames,
-    buildDurationFrames,
     buildCliDurationFrames,
     buildTitleDurationFrames,
     ctaStartFrames,
@@ -74,11 +72,9 @@ export const Promo30: FC = () => {
     titleDurationFrames,
     previewStartOffsetFrames,
     previewDurationFrames,
-    valueUiTotalFrames,
     previewExitStartFrames,
     previewExitEndFrames,
     buildStartFrames,
-    buildDurationFrames,
     buildCliDurationFrames,
     buildTitleDurationFrames,
     ctaStartFrames,
@@ -95,7 +91,7 @@ export const Promo30: FC = () => {
   return (
     <BackgroundFrame>
       <Audio src={staticFile("technology.mp3")} volume={audioVolume} />
-      <Sequence from={0} durationInFrames={5 * fps} premountFor={1 * fps}>
+      <Sequence  durationInFrames={5 * fps} premountFor={1 * fps}>
         <ValueOrganize />
       </Sequence>
       <Sequence
