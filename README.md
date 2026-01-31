@@ -1,4 +1,4 @@
-# Slidev Workspace intro vide
+# Slidev Workspace intro video
 
 <video src="./out/Promo30.mp4" controls />
 
