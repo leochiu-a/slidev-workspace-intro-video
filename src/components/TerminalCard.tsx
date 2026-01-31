@@ -1,5 +1,5 @@
 import type { CSSProperties, FC } from "react";
-import { Audio, Sequence, staticFile } from "remotion";
+import { Html5Audio, Sequence, staticFile } from "remotion";
 import { TypewriterText } from "./TypewriterText";
 
 type TerminalCardProps = {
@@ -45,7 +45,7 @@ export const TerminalCard: FC<TerminalCardProps> = ({
     >
       {typingAudio ? (
         <Sequence from={0} durationInFrames={typingDurationFrames}>
-          <Audio src={staticFile("typing.mp3")} volume={0.5} />
+          <Html5Audio src={staticFile("typing.mp3")} volume={0.5} />
         </Sequence>
       ) : null}
       <div

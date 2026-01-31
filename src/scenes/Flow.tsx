@@ -1,6 +1,6 @@
 import type { FC } from "react";
 import {
-  Audio,
+  Html5Audio,
   Easing,
   Sequence,
   interpolate,
@@ -61,7 +61,7 @@ export const Flow: FC = () => {
     >
       {whooshFrames.map((startFrame) => (
         <Sequence key={`whoosh-${startFrame}`} from={startFrame}>
-          <Audio src={staticFile("whoosh.mp3")} volume={0.35} />
+          <Html5Audio src={staticFile("whoosh.mp3")} volume={0.35} />
         </Sequence>
       ))}
       <div style={{ width: "100%", display: "flex", justifyContent: "center" }}>

@@ -1,6 +1,6 @@
 import type { FC } from "react";
 import {
-  Audio,
+  Html5Audio,
   Sequence,
   interpolate,
   staticFile,
@@ -90,7 +90,7 @@ export const Promo30: FC = () => {
   // Visual timing is verified in Remotion Studio; no automated tests are set up for motion sequencing.
   return (
     <BackgroundFrame>
-      <Audio src={staticFile("technology.mp3")} volume={audioVolume} />
+      <Html5Audio src={staticFile("technology.mp3")} volume={audioVolume} />
       <Sequence  durationInFrames={5 * fps} premountFor={1 * fps}>
         <ValueOrganize />
       </Sequence>
