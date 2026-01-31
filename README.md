@@ -1,5 +1,7 @@
 # Slidev Workspace intro video
 
+![](./public/cover.png)
+
 This project introduces the [Slidev Workspace](https://github.com/leochiu-a/slidev-workspace) tool and explores Remotion skills combined with vibe coding to test the extent to which promotional videos can be produced.
 
 In summary, for someone without any video production concepts, using Remotion skills to create a video is still quite difficult.
