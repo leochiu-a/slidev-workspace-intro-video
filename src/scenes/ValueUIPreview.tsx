@@ -156,7 +156,8 @@ export const ValueUIPreview: FC<ValueUIPreviewProps> = ({
                 style={{
                   width: "100%",
                   height: "100%",
-                  objectFit: "cover",
+                  objectFit: "contain",
+                  objectPosition: "center",
                   borderRadius: 0,
                   border: "none",
                 }}
