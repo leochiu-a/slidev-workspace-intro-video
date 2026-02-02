@@ -87,7 +87,7 @@ export const ValueOrganize: FC = () => {
     extrapolateRight: "clamp",
   });
 
-  const workspaceWidth = interpolate(morphProgress, [0, 1], [320, 440], {
+  const workspaceWidth = interpolate(morphProgress, [0, 1], [320, 340], {
     extrapolateLeft: "clamp",
     extrapolateRight: "clamp",
   });
